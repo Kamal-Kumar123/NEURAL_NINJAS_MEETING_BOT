@@ -33,3 +33,11 @@ yarn-error.log*
 # OS-specific files
 .DS_Store
 Thumbs.db
+
+
+#if we are using python
+__pycache__/
+.pytest_cache/
+
+
+coverage/
