@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import axios from 'axios';
 
 
-const BASE_URL="https://neural-ninjas-meeting-bot1.onrender.com"
+const BASE_URL="https://neural-ninjas-meeting-bot0.onrender.com"
 function TranscriptInput() {
   const [file, setFile] = useState(null);
   const [transcript, setTranscript] = useState('');
