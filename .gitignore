@@ -2,42 +2,125 @@
 meet_bot/  
 node_modules/
 
-
-# build output inside frontend
+# node_modules/
+dist/
 build/
-
-#Logs
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-
-
-# Runtime data
-*.pid
-*.seed
-*.log
-
-# Env files
 .env
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
-
-# Editor directories and files
-.vscode/
-.idea/
-*.sublime-project
-*.sublime-workspace
-
-# OS-specific files
+*.log
 .DS_Store
-Thumbs.db
 
 
-#if we are using python
-__pycache__/
-.pytest_cache/
+# #python
+# venv/
+# backend/venv/
+# __pycache__/
+# *.py[cod]
+# *.so
+# *.egg
+# *.egg-info/
+# dist/
+# build/
+
+# #jupyter notebook
+# .ipynb_checkpoints/
 
 
-coverage/
+# #node.js or frontend
+
+# frontend/node_modules/
+# .cache/
+# .npm/
+# .yarn/
+# yarn-error.log
+# npm-debug.log
+
+
+
+# # =========================
+# # ENV / SECRETS
+# # =========================
+# .env
+# .env.*
+# *.env
+
+# # =========================
+# # IDE / SYSTEM FILES
+# # =========================
+# .vscode/
+# .idea/
+# .DS_Store
+# Thumbs.db
+
+# # =========================
+# # LOG / TEMP FILES
+# # =========================
+# *.log
+# *.tmp
+# *.swp
+# *.swo
+
+# # =========================
+# # LINUX / GIT SPECIFIC
+# # =========================
+# *.bak
+# *.orig
+# *.rej
+# *.gz
+# *.zip
+
+# # =========================
+# # TEST / COVERAGE
+# # =========================
+# coverage/
+# .coverage
+# *.cover
+# *.py,cover
+# htmlcov/
+
+# # =========================
+# # LFS BLOCKERS (Prevent large files by mistake)
+# # =========================
+# *.dylib
+# *.pt
+# *.h5
+# *.ckpt
+# *.tflite
+
+# # build output inside frontend
+# build/
+
+# #Logs
+# npm-debug.log*
+# yarn-debug.log*
+# yarn-error.log*
+
+
+# # Runtime data
+# *.pid
+# *.seed
+# *.log
+
+# # Env files
+# .env
+# .env.local
+# .env.development.local
+# .env.test.local
+# .env.production.local
+
+# # Editor directories and files
+# .vscode/
+# .idea/
+# *.sublime-project
+# *.sublime-workspace
+
+# # OS-specific files
+# .DS_Store
+# Thumbs.db
+
+
+# #if we are using python
+# __pycache__/
+# .pytest_cache/
+
+
+# coverage/
