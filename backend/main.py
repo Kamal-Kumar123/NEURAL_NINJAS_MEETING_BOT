@@ -13,7 +13,7 @@ app = FastAPI()
 
 
 # AssemblyAI API key (only for audio)
-API_KEY = '5d8d89d0b1c74d3c92ab8ce0840e35b8'
+API_KEY = "2e8448c120dc43faa1bb9869764b4ad4"
 headers = {'authorization': API_KEY}
 
 # Enable CORS
